@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar bg-success-subtle">
+      <div class="container-fluid justify-content-center ">
+        <a class="navbar-brand fs-1 bi bi-filetype-js " href="#">Ejercicio 8</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="container">
+
+    <h4 class="py-2">- Crear programa donde se introduce una temperatura en Celsius y salga el 
+        resultado en Fahrenheit, una vez teniendo la temperatura en Fahrenheit deberá devolver 
+        lo siguiente: <br>
+        • Si ºF está entre 14 y 32, sale la frase “Temperatura baja” <br>
+        • Si ºF está entre 32 y 68, sale la frase “Temperatura adecuada” <br>
+        • Si ºF está entre 68 y 96, sale la frase “Temperatura alta” <br>
+        • Si no está entre ningún caso anterior la frase “Temperatura desconocida”</h4>
+
+    <h1>Conversor de Temperatura</h1>
+    <label for="temperatura">Temperatura en Celsius:</label>
+    <input type="number" id="temperatura">
+    <button onclick="convertirTemperatura()" class="btn bg-secondary-subtle" >Convertir</button>
+    <div id="resultado"></div>
+
+    <p></p>
+
+    
+  </main>
+
+  <div class=" py-3 px-4 float-end ">
+    <a class="btn btn-outline-primary" href="./index.html"> Volver Atrás</a>
+</div>
+
+    
+  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="./assets/js/ejercicio8.js"></script>
+</html>
